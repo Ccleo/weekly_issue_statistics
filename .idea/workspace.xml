@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c29640f-c17b-4f6d-9686-d793d9d0d4cc" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/weekly_issue_statistics$weekly_issue_statistics_V4_addNew.coverage" NAME="weekly_issue_statistics_V4_addNew Coverage Results" MODIFIED="1588911315768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/weekly_issue_statistics$config.coverage" NAME="config Coverage Results" MODIFIED="1588990374644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/weekly_issue_statistics$write_chart.coverage" NAME="write_chart Coverage Results" MODIFIED="1588834403025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chart" />
+    <SUITE FILE_PATH="coverage/weekly_issue_statistics$DB_update.coverage" NAME="DB_update Coverage Results" MODIFIED="1588929939314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
+    <SUITE FILE_PATH="coverage/weekly_issue_statistics$run.coverage" NAME="run Coverage Results" MODIFIED="1588989742966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="write_summaryChart_sheet01.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sheet/write_summaryChart_sheet01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redmine.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/redmine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <marker date="1588989709752" expanded="true" signature="2731:2837" ph="insert into wbg_proj_before_bug... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_update.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/db_update.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="44" />
+              <folding>
+                <marker date="1588919785923" expanded="true" signature="1609:1748" ph="update wbg_year_sta... " />
+                <marker date="1588919785923" expanded="true" signature="2082:2183" ph="select * fro... wbg_year_sta" />
+                <marker date="1588919785923" expanded="true" signature="2533:2696" ph="update wbg_year_sta... " />
+                <marker date="1588919785923" expanded="true" signature="3127:3272" ph="insert into wbg_year_sta... " />
+                <marker date="1588919785923" expanded="true" signature="3870:3944" ph="select * fro... wbg_year_sta" />
+                <marker date="1588919785923" expanded="true" signature="4287:4400" ph="update wbg_year_sta... " />
+                <marker date="1588919785923" expanded="true" signature="4782:4857" ph="select * fro... wbg_history_data" />
+                <marker date="1588919785923" expanded="true" signature="5148:5380" ph="update wbg_history_data... " />
+                <marker date="1588919785923" expanded="true" signature="5673:5873" ph="insert into wbg_history_data... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="write_proj_sheet.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sheet/write_proj_sheet.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3325">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#3455#3463#0" expanded="false" />
+                <marker date="1588987985770" expanded="true" signature="958:1010" ph="select year " />
+                <marker date="1588987985770" expanded="true" signature="1715:1813" ph="select year,... " />
+                <marker date="1588987985770" expanded="true" signature="2797:2896" ph="select month... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/db_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding>
+                <marker date="1588989709716" expanded="true" signature="321:354" ph="select * fro... wbg_proj_before_bug" />
+                <marker date="1588989709716" expanded="true" signature="668:711" ph="select last_... wbg_week" />
+                <marker date="1588989709716" expanded="true" signature="1143:1235" ph="select proje... wbg_history_data" />
+                <marker date="1588989709716" expanded="true" signature="1877:1951" ph="select year,... " />
+                <marker date="1588989709716" expanded="true" signature="2472:2609" ph="select proje... wbg_history_data" />
+                <marker date="1588989709716" expanded="true" signature="3719:3834" ph="select proje... wbg_history_data" />
+                <marker date="1588989709716" expanded="true" signature="3880:4018" ph="select proje... wbg_history_data" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Python_JIRA_API.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/Python_JIRA_API.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-450">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="weekly_issue_statistics_V4_addNew.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weekly_issue_statistics_V4_addNew.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1101">
+              <caret line="466" column="8" lean-forward="false" selection-start-line="466" selection-start-column="8" selection-end-line="466" selection-end-column="8" />
+              <folding>
+                <marker date="1588908646498" expanded="true" signature="7313:7393" ph="insert into wbg_proj_before_bug... " />
+                <marker date="1588908646498" expanded="true" signature="16690:16723" ph="select * fro... wbg_proj_before_bug" />
+                <marker date="1588908646498" expanded="true" signature="18157:18296" ph="update wbg_year_sta... " />
+                <marker date="1588908646498" expanded="true" signature="18635:18736" ph="select * fro... wbg_year_sta" />
+                <marker date="1588908646498" expanded="true" signature="19086:19249" ph="update wbg_year_sta... " />
+                <marker date="1588908646498" expanded="true" signature="19690:19835" ph="insert into wbg_year_sta... " />
+                <marker date="1588908646498" expanded="true" signature="20448:20522" ph="select * fro... wbg_year_sta" />
+                <marker date="1588908646498" expanded="true" signature="20865:20978" ph="update wbg_year_sta... " />
+                <marker date="1588908646498" expanded="true" signature="21412:21487" ph="select * fro... wbg_history_data" />
+                <marker date="1588908646498" expanded="true" signature="21778:22010" ph="update wbg_history_data... " />
+                <marker date="1588908646498" expanded="true" signature="22303:22503" ph="insert into wbg_history_data... " />
+                <marker date="1588908646498" expanded="true" signature="22821:22864" ph="select last_... wbg_week" />
+                <marker date="1588908646498" expanded="true" signature="23320:23412" ph="select proje... wbg_history_data" />
+                <marker date="1588908646498" expanded="true" signature="24008:24082" ph="select year,... " />
+                <marker date="1588908646498" expanded="true" signature="24644:24781" ph="select proje... wbg_history_data" />
+                <marker date="1588908646498" expanded="true" signature="25947:26062" ph="select proje... wbg_history_data" />
+                <marker date="1588908646498" expanded="true" signature="26108:26246" ph="select proje... wbg_history_data" />
+                <marker date="1588908646498" expanded="true" signature="46943:47099" ph="select proje... wbg_history_data" />
+                <marker date="1588908646498" expanded="true" signature="48577:48733" ph="select proje... wbg_history_data" />
+                <marker date="1588908646498" expanded="true" signature="51722:51774" ph="select year " />
+                <marker date="1588908646498" expanded="true" signature="52574:52672" ph="select year,... " />
+                <marker date="1588908646498" expanded="true" signature="54133:54232" ph="select month... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_update.py#" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/DB_update.py#">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="110" column="22" lean-forward="false" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+              <folding>
+                <marker date="1588986750898" expanded="true" signature="2344:2424" ph="insert into wbg_proj_before_bug... " />
+                <marker date="1588986750898" expanded="true" signature="4386:4531" ph="insert into wbg_year_sta... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Db().reConnect()</find>
+      <find>DB().reConnect()</find>
+      <find>self.reConnect()</find>
+      <find>style_of_cell</find>
+      <find>self.style_of_cell()</find>
+      <find>write_index_chart</find>
+      <find>Styles()</find>
+      <find>week</find>
+      <find>self</find>
+      <find>self.</find>
+      <find>DbSearch()</find>
+      <find>dps</find>
+      <find>totalDate</find>
+      <find>report</find>
+      <find>shutil</find>
+      <find>style_1()</find>
+      <find>style_3</find>
+      <find>style</find>
+      <find>Styles(workbook)</find>
+      <find>current</find>
+      <find>wbg_proj_before_bug</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Db().reConnect()</replace>
+      <replace>DB().reConnect()</replace>
+      <replace>Style().style_of_cell</replace>
+      <replace>Styles().style_of_cell</replace>
+      <replace>WEEK</replace>
+      <replace>Styles(self.workbook)</replace>
+      <replace>dps</replace>
+      <replace>dbs</replace>
+      <replace>totalDate</replace>
+      <replace>TOTAL_DATA</replace>
+      <replace>style_of_cell</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/utils/weekly_issue_statistics_V4_addNew.py" />
+        <option value="$PROJECT_DIR$/utils/jira.py" />
+        <option value="$PROJECT_DIR$/utils/styles.py" />
+        <option value="$PROJECT_DIR$/utils/chart.py" />
+        <option value="$PROJECT_DIR$/utils/db_update.py" />
+        <option value="$PROJECT_DIR$/utils/write_sheet.py" />
+        <option value="$PROJECT_DIR$/utils/db.py" />
+        <option value="$PROJECT_DIR$/common/init_data.py" />
+        <option value="$PROJECT_DIR$/common/jira.py" />
+        <option value="$PROJECT_DIR$/common/redmine.py" />
+        <option value="$PROJECT_DIR$/common/db.py" />
+        <option value="$PROJECT_DIR$/common/db_search.py" />
+        <option value="$PROJECT_DIR$/common/db_update.py" />
+        <option value="$PROJECT_DIR$/chart/write_chart.py" />
+        <option value="$PROJECT_DIR$/script/weekly_issue_statistics_V4_addNew.py" />
+        <option value="$PROJECT_DIR$/common/styles.py" />
+        <option value="$PROJECT_DIR$/script/Redmine_find_proj_conf.py" />
+        <option value="$PROJECT_DIR$/utils/common.py" />
+        <option value="$PROJECT_DIR$/conf.py" />
+        <option value="$PROJECT_DIR$/sheet/write_summary_sheet02.py" />
+        <option value="$PROJECT_DIR$/sheet/write_summaryChart_sheet01.py" />
+        <option value="$PROJECT_DIR$/script/db_update.py" />
+        <option value="$PROJECT_DIR$/script/DB_update.py" />
+        <option value="$PROJECT_DIR$/sheet/write_proj_sheet.py" />
+        <option value="$PROJECT_DIR$/utils/db_search.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/utils/redmine.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="980" />
+    <option name="y" value="-1" />
+    <option name="width" value="965" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Probable bugsCSS</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="weekly_issue_statistics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weekly_issue_statistics" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Data_AT_Statistics\每周项目测试缺陷状况\weekly_issue_statistics" />
+      <recent name="D:\Data_AT_Statistics\每周项目测试缺陷状况\weekly_issue_statistics\script" />
+      <recent name="D:\Data_AT_Statistics\每周项目测试缺陷状况\weekly_issue_statistics\utils\chart" />
+      <recent name="D:\Data_AT_Statistics\每周项目测试缺陷状况\weekly_issue_statistics\utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Data_AT_Statistics\每周项目测试缺陷状况\weekly_issue_statistics\script" />
+      <recent name="D:\Data_AT_Statistics\每周项目测试缺陷状况\weekly_issue_statistics\sheet" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.config">
+    <configuration name="DB_update" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weekly_issue_statistics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Data_AT_Statistics\每周项目测试缺陷状况\weekly_issue_statistics\script\DB_update.py#" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weekly_issue_statistics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weekly_issue_statistics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="weekly_issue_statistics_V4_addNew" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/script" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weekly_issue_statistics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Data_AT_Statistics\每周项目测试缺陷状况\weekly_issue_statistics\weekly_issue_statistics_V4_addNew.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="write_chart" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chart" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="weekly_issue_statistics" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chart/write_chart.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.run" />
+      <item index="1" class="java.lang.String" itemvalue="Python.write_chart" />
+      <item index="2" class="java.lang.String" itemvalue="Python.weekly_issue_statistics_V4_addNew" />
+      <item index="3" class="java.lang.String" itemvalue="Python.DB_update" />
+      <item index="4" class="java.lang.String" itemvalue="Python.config" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.config" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DB_update" />
+        <item index="3" class="java.lang.String" itemvalue="Python.weekly_issue_statistics_V4_addNew" />
+        <item index="4" class="java.lang.String" itemvalue="Python.write_chart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c29640f-c17b-4f6d-9686-d793d9d0d4cc" name="Default" comment="" />
+      <created>1588815785968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588815785968</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28804347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16897655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/utils/redmine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1588989709752" expanded="true" signature="2731:2837" ph="insert into wbg_proj_before_bug... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/styles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="97" column="22" lean-forward="false" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/write_summary_sheet02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <marker date="1588922801089" expanded="true" signature="970:1126" ph="select proje... wbg_history_data" />
+            <marker date="1588922801089" expanded="true" signature="2442:2598" ph="select proje... wbg_history_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/write_summaryChart_sheet01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5370">
+          <caret line="186" column="4" lean-forward="false" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#36#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/jira.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weekly_issue_statistics_V4_addNew.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="83" column="4" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+          <folding>
+            <marker date="1588908646498" expanded="true" signature="7313:7393" ph="insert into wbg_proj_before_bug... " />
+            <marker date="1588908646498" expanded="true" signature="16690:16723" ph="select * fro... wbg_proj_before_bug" />
+            <marker date="1588908646498" expanded="true" signature="18157:18296" ph="update wbg_year_sta... " />
+            <marker date="1588908646498" expanded="true" signature="18635:18736" ph="select * fro... wbg_year_sta" />
+            <marker date="1588908646498" expanded="true" signature="19086:19249" ph="update wbg_year_sta... " />
+            <marker date="1588908646498" expanded="true" signature="19690:19835" ph="insert into wbg_year_sta... " />
+            <marker date="1588908646498" expanded="true" signature="20448:20522" ph="select * fro... wbg_year_sta" />
+            <marker date="1588908646498" expanded="true" signature="20865:20978" ph="update wbg_year_sta... " />
+            <marker date="1588908646498" expanded="true" signature="21412:21487" ph="select * fro... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="21778:22010" ph="update wbg_history_data... " />
+            <marker date="1588908646498" expanded="true" signature="22303:22503" ph="insert into wbg_history_data... " />
+            <marker date="1588908646498" expanded="true" signature="22821:22864" ph="select last_... wbg_week" />
+            <marker date="1588908646498" expanded="true" signature="23320:23412" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="24008:24082" ph="select year,... " />
+            <marker date="1588908646498" expanded="true" signature="24644:24781" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="25947:26062" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="26108:26246" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="46943:47099" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="48577:48733" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="51722:51774" ph="select year " />
+            <marker date="1588908646498" expanded="true" signature="52574:52672" ph="select year,... " />
+            <marker date="1588908646498" expanded="true" signature="54133:54232" ph="select month... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart/write_chart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/write_proj_sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#3455#3463#0" expanded="false" />
+            <marker date="1588987985770" expanded="true" signature="958:1010" ph="select year " />
+            <marker date="1588987985770" expanded="true" signature="1715:1813" ph="select year,... " />
+            <marker date="1588987985770" expanded="true" signature="2797:2896" ph="select month... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2940">
+          <caret line="108" column="8" lean-forward="false" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/write_sheet.py" />
+    <entry file="file://$PROJECT_DIR$/common/init_data.py" />
+    <entry file="file://$PROJECT_DIR$/utils/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/matplotlib/cbook/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="688" column="0" lean-forward="false" selection-start-line="688" selection-start-column="0" selection-end-line="688" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chart/chart/BIM02.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/pathlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="946" column="6" lean-forward="false" selection-start-line="946" selection-start-column="6" selection-end-line="946" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/xlsxwriter/worksheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="5468" column="0" lean-forward="false" selection-start-line="5468" selection-start-column="0" selection-end-line="5468" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/styles.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="72" column="22" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.ini" />
+    <entry file="file://$PROJECT_DIR$/log/log_test2020-05-08_14_56_42.txt" />
+    <entry file="file://$PROJECT_DIR$/log/log_test2020-05-08_15_03_28.txt" />
+    <entry file="file://$PROJECT_DIR$/sheet/write_summary_sheet02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="98" column="37" lean-forward="false" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+          <folding>
+            <marker date="1588922801089" expanded="true" signature="970:1126" ph="select proje... wbg_history_data" />
+            <marker date="1588922801089" expanded="true" signature="2442:2598" ph="select proje... wbg_history_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log_test2020-05-08_15_26_42.txt" />
+    <entry file="file://$PROJECT_DIR$/chart/write_chart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log_test2020-05-08_16_26_44.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/970885877/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="168" column="4" lean-forward="false" selection-start-line="168" selection-start-column="4" selection-end-line="168" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1395" column="8" lean-forward="false" selection-start-line="1395" selection-start-column="8" selection-end-line="1395" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/jira.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log_test2020-05-09_09_24_51.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11685">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Redmine_find_proj_conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/Python_JIRA_API.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/DB_update.py#">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="110" column="22" lean-forward="false" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
+          <folding>
+            <marker date="1588986750898" expanded="true" signature="2344:2424" ph="insert into wbg_proj_before_bug... " />
+            <marker date="1588986750898" expanded="true" signature="4386:4531" ph="insert into wbg_year_sta... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/write_proj_sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3325">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#3455#3463#0" expanded="false" />
+            <marker date="1588987985770" expanded="true" signature="958:1010" ph="select year " />
+            <marker date="1588987985770" expanded="true" signature="1715:1813" ph="select year,... " />
+            <marker date="1588987985770" expanded="true" signature="2797:2896" ph="select month... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weekly_issue_statistics_V4_addNew.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1101">
+          <caret line="466" column="8" lean-forward="false" selection-start-line="466" selection-start-column="8" selection-end-line="466" selection-end-column="8" />
+          <folding>
+            <marker date="1588908646498" expanded="true" signature="7313:7393" ph="insert into wbg_proj_before_bug... " />
+            <marker date="1588908646498" expanded="true" signature="16690:16723" ph="select * fro... wbg_proj_before_bug" />
+            <marker date="1588908646498" expanded="true" signature="18157:18296" ph="update wbg_year_sta... " />
+            <marker date="1588908646498" expanded="true" signature="18635:18736" ph="select * fro... wbg_year_sta" />
+            <marker date="1588908646498" expanded="true" signature="19086:19249" ph="update wbg_year_sta... " />
+            <marker date="1588908646498" expanded="true" signature="19690:19835" ph="insert into wbg_year_sta... " />
+            <marker date="1588908646498" expanded="true" signature="20448:20522" ph="select * fro... wbg_year_sta" />
+            <marker date="1588908646498" expanded="true" signature="20865:20978" ph="update wbg_year_sta... " />
+            <marker date="1588908646498" expanded="true" signature="21412:21487" ph="select * fro... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="21778:22010" ph="update wbg_history_data... " />
+            <marker date="1588908646498" expanded="true" signature="22303:22503" ph="insert into wbg_history_data... " />
+            <marker date="1588908646498" expanded="true" signature="22821:22864" ph="select last_... wbg_week" />
+            <marker date="1588908646498" expanded="true" signature="23320:23412" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="24008:24082" ph="select year,... " />
+            <marker date="1588908646498" expanded="true" signature="24644:24781" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="25947:26062" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="26108:26246" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="46943:47099" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="48577:48733" ph="select proje... wbg_history_data" />
+            <marker date="1588908646498" expanded="true" signature="51722:51774" ph="select year " />
+            <marker date="1588908646498" expanded="true" signature="52574:52672" ph="select year,... " />
+            <marker date="1588908646498" expanded="true" signature="54133:54232" ph="select month... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sheet/write_summaryChart_sheet01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/db_update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <marker date="1588919785923" expanded="true" signature="1609:1748" ph="update wbg_year_sta... " />
+            <marker date="1588919785923" expanded="true" signature="2082:2183" ph="select * fro... wbg_year_sta" />
+            <marker date="1588919785923" expanded="true" signature="2533:2696" ph="update wbg_year_sta... " />
+            <marker date="1588919785923" expanded="true" signature="3127:3272" ph="insert into wbg_year_sta... " />
+            <marker date="1588919785923" expanded="true" signature="3870:3944" ph="select * fro... wbg_year_sta" />
+            <marker date="1588919785923" expanded="true" signature="4287:4400" ph="update wbg_year_sta... " />
+            <marker date="1588919785923" expanded="true" signature="4782:4857" ph="select * fro... wbg_history_data" />
+            <marker date="1588919785923" expanded="true" signature="5148:5380" ph="update wbg_history_data... " />
+            <marker date="1588919785923" expanded="true" signature="5673:5873" ph="insert into wbg_history_data... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/db_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <marker date="1588989709716" expanded="true" signature="321:354" ph="select * fro... wbg_proj_before_bug" />
+            <marker date="1588989709716" expanded="true" signature="668:711" ph="select last_... wbg_week" />
+            <marker date="1588989709716" expanded="true" signature="1143:1235" ph="select proje... wbg_history_data" />
+            <marker date="1588989709716" expanded="true" signature="1877:1951" ph="select year,... " />
+            <marker date="1588989709716" expanded="true" signature="2472:2609" ph="select proje... wbg_history_data" />
+            <marker date="1588989709716" expanded="true" signature="3719:3834" ph="select proje... wbg_history_data" />
+            <marker date="1588989709716" expanded="true" signature="3880:4018" ph="select proje... wbg_history_data" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/redmine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="44" column="12" lean-forward="false" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1588989709752" expanded="true" signature="2731:2837" ph="insert into wbg_proj_before_bug... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" column="15" lean-forward="false" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

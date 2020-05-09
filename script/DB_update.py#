@@ -1,0 +1,120 @@
+from utils.redmine import RedmineSta
+from utils.jira import JiraSta
+from utils.db import DB
+import time, datetime
+import config
+
+# 若长期未使用脚本导致web_year_sta表中项目的某些月份没有录入数据,可以运行此脚本添加每月的新建bug数,手动修改字典添加对应月份以及该月天数
+mdict = [(2, 29), (3, 31), (4, 30)]
+
+
+class UpdateRedmine(RedmineSta):
+
+    def Redmine_build_bug_by_m(self, proj, NEW_PROJECT, PROJ_DICT, ms, me):
+        """
+        :param tag:
+        :param start_time: 07-01
+        :param end_time: 07-31
+        :return: bug字典,当前时间段bug总数
+        """
+        # project = self.redmine.project.get(tag)
+        # start_time = time.strftime('%m-01', time.localtime(time.time()))
+        # end_time = time.strftime('%m-%d', time.localtime(time.time()))
+
+        start_time = "2020-%02d-01 08:00:0" % ms
+        end_time = "2020-%02d-%d 08:00:0" % (ms, me)
+
+        start_time = datetime.datetime.utcfromtimestamp(
+            int(time.mktime(time.strptime(start_time, "%Y-%m-%d %H:%M:%S")))).strftime("%Y-%m-%d")
+        end_time = datetime.datetime.utcfromtimestamp(
+            int(time.mktime(time.strptime(end_time, "%Y-%m-%d %H:%M:%S")))).strftime("%Y-%m-%d")
+
+        if proj in NEW_PROJECT:  # 新建项目，统计所有已创建bug
+            issues_list = self.redmine.issue.filter(project_id=PROJ_DICT[proj]['redmine_project_id'],
+                                                    status_id="*",
+                                                    tracker_id=PROJ_DICT[proj]['redmine_tracker_id'],
+                                                    )
+            # print(len(issues_list))
+            issues_list_before = self.redmine.issue.filter(project_id=PROJ_DICT[proj]['redmine_project_id'],
+                                                           status_id="*",
+                                                           tracker_id=PROJ_DICT[proj]['redmine_tracker_id'],
+                                                           created_on='<=' + str(start_time))
+
+            created_bug_num = len(issues_list)  # 非新建项目，只统计当前月新建bug数量
+            print("【Redmine】%s 新建bug数量为:%d " % (proj, created_bug_num))
+            proj_before_bug_num = int(len(issues_list_before))
+            print("【Redmine】%s %s月份之前新建bug数量为:%d " % (proj, self.MONTH, created_bug_num))
+            if proj_before_bug_num > 0:
+                connect = DB().conn()
+                cur = connect.cursor()
+                sql = 'insert into wbg_proj_before_bug (proj,beforeNum) values (%(proj)s,%(beforeNum)s)'
+                value = {'proj': proj, 'before': proj_before_bug_num}
+                # print('------------------------')
+                # print(value)
+                cur.execute(sql, value)
+                connect.commit()
+            return created_bug_num
+
+        else:
+            issues_list = self.redmine.issue.filter(project_id=PROJ_DICT[proj]['redmine_project_id'],
+                                                    status_id="*",
+                                                    tracker_id=PROJ_DICT[proj]['redmine_tracker_id'],
+                                                    created_on='><' + str(start_time) + '|' + str(end_time))
+            # print(len(issues_list))
+            created_bug_num = len(issues_list)  # 当前新建bug数量
+            print("【Redmine】%s %s月份 新建bug数量为:%d " % (proj, ms, created_bug_num))
+            return created_bug_num
+
+
+class UpdateJira(JiraSta):
+
+    def JIRA_build_bug_by_m(self, proj, PROJ_DICT, ms, me):
+        # begintime = time.strftime('%Y-%m-01', time.localtime(time.time()))
+        begintime = "2020-%02d-01" % ms
+        endtime = "2020-%02d-%s" % (ms, me)
+        # print(begintime)
+        # t = time.strftime('%d', time.localtime(time.time()))
+        # endtime = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+        # print(endtime)
+        JQL = "project in (%s) AND issuetype = %s AND created >= %s AND created <= %s" % (
+            PROJ_DICT[proj]['jira_project_id'], PROJ_DICT[proj]['jira_tracker_id'], begintime, endtime)
+        # print(JQL)
+        issue_list = self.jira.search_issues(JQL, maxResults=100000)
+        # project_name = {"EBID": "EBID", "OA": "OA系统"}
+        print("【JIRA】%s 新建bug数量: %d" % (proj, len(issue_list)))
+        bug_build_num = len(issue_list)
+        return bug_build_num
+
+
+def insert_web_year_sta(proj, currentMonth, lbn, bbn):
+    connect = DB().conn()
+    cur = connect.cursor()
+    ut = datetime.datetime.now()
+    sql = 'insert into wbg_year_sta (project,year,month,leave_bug_num,build_bug_num,update_time) values (%(proj)s,%(year)s,%(month)s,%(lbn)s,%(bbn)s,%(ut)s)'
+    value = {'proj': proj, 'year': '2020', 'month': currentMonth,
+             'lbn': lbn,
+             'bbn': bbn, 'ut': ut}
+    # print('------------------------')
+    # print(value)
+    cur.execute(sql, value)
+    connect.commit()
+
+
+def main():
+    NEW_PROJECT = []
+    PROJ_DICT = config.PROJ_DICT
+
+    for proj in PROJ_DICT:
+        print(proj)
+        for ms, me in mdict:
+            if PROJ_DICT[proj]['type'] == 'redmine':
+                bbn = UpdateRedmine().Redmine_build_bug_by_m(proj, NEW_PROJECT, PROJ_DICT, ms, me)
+            else:
+                bbn = UpdateJira().JIRA_build_bug_by_m(proj, PROJ_DICT, ms, me)
+            lbn = 0
+            insert_web_year_sta(proj, str(ms), lbn, bbn)
+            print('insert %s - %s success' % (proj, ms))
+
+#
+# if __name__ == "__main__":
+#     main()
